@@ -1,24 +1,28 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Python virtual environment
+MLMODEL/venv/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Python cache
+__pycache__/
+MLMODEL/__pycache__/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Jupyter
+.ipynb_checkpoints/
+MLMODEL/.ipynb_checkpoints/
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+MLMODEL/.env
+insurancefraudfrontend/.env
+
+# React
+insurancefraudfrontend/node_modules/
+insurancefraudfrontend/dist/
+
+# IDE
+.vscode/
+.idea/
